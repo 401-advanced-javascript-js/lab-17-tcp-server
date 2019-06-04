@@ -1,0 +1,21 @@
+{
+  "name": "lab-17-tcp-server",
+  "version": "1.0.0",
+  "description": "Events Lab",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^23.6.0"
+  }
+}
